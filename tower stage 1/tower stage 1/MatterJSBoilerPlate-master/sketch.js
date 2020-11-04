@@ -20,7 +20,7 @@ function setup() {
 ground1 = new Ground (1000,350,400,20);
 
 
- box1 = new Box (850,320,30,40);
+box1 = new Box (850,320,30,40);
 box2 = new Box (880,320,30,40);
 box3 = new Box (910,320,30,40);
 box4 = new Box (940,320,30,40);
@@ -47,7 +47,7 @@ box24 = new Box (970,200,30,40);
 box25 = new Box (1000,200,30,40);
 box26 = new Box (970,160,30,40);
 //Create the Bodies Here.
-  papper = new paper(200, 210, 20, 30)
+  papper = new Paper(200, 210, 20, 30)
   launcher1 = new Launcher (papper.body,{x:200, y:100});
   Engine.run(engine);
  
@@ -59,8 +59,7 @@ function draw() {
   background("white");
  
   //image(dustbin,800,220,200,150) 
-  
-
+ 
 //basketL.display();
 //basketB.display();
 //basketR.display();
